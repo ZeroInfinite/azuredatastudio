@@ -294,6 +294,7 @@ export namespace DeleteAgentJobScheduleRequest {
 // ------------------------------- < DacFx > ------------------------------------
 export interface DacFxExportParams {
 	connectionString: string;
+	packageFileName: string;
 }
 
 export interface DacFxExportResponse {
